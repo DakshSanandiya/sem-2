@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9_A2</title>
+    <style>
+        @keyframes animation {
+            0% {
+                top: 0%;
+                left: 0%;
+                background-color: red;
+            }
+
+            25% {
+                top: 0%;
+                left: 75%;
+                background-color: blue;
+
+            }
+
+            50% {
+                top: 75%;
+                left: 75%;
+                background-color: black;
+            }
+
+            75% {
+                top: 75%;
+                left: 0%;
+                background-color: orange;
+            }
+
+            100% {
+                top: 0%;
+                left: 0%;
+                background-color: red;
+            }
+        }
+
+        .ani {
+            height: 36px;
+            color: white;
+            width: 105px;
+            font-size: 30px;
+            animation-delay: 2s;
+            animation-name: animation;
+            animation-duration: 10s;
+            position: absolute;
+            animation-timing-function: linear;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ani">DAKSH</div>
+</body>
+
+</html>
